@@ -131,14 +131,6 @@ body {
   width: 800px;
   height: 500px;
 }
-
-/*.quiz_header {
-  display: flex;
-  justify-content: space-between;
-
-  z-index: 1;
-  margin-bottom: 6rem;
-}*/
 .quiz_body {
   padding: 30px 30px;
 }
@@ -268,6 +260,20 @@ li {
   margin-left: 10px;
 }
 @media (max-width: 540px) {
+  #showcase {
+    height: 1000px;
+  }
+  #showcase .showcase-content h1 {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+  #showcase .showcase-content h2,
+  #showcase .showcase-content h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.7em;
+  }
+
   #wrapper {
     display: flex;
     justify-content: center;
@@ -281,7 +287,7 @@ li {
     font-size: 60px;
   }
   #wrapper h2 {
-    font-size: 42px;
+    font-size: 35px;
     text-align: center;
   }
   #wrapper h3 {
@@ -304,7 +310,7 @@ li {
   #progressBar {
     width: 15rem;
     height: 2rem;
-    border: 0.15rem solid #56aef7;
+    border: 0.2rem solid #56aef7;
   }
 
   #progressBarFull {
