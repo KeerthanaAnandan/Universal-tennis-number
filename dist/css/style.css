@@ -109,10 +109,10 @@ body {
 }
 
 .welcome_form button {
-  padding: 15px 0;
+  padding: 10px 0;
   margin: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 1px;
   background-color: #fff;
   color: #56a5eb;
   font-size: 22px;
@@ -259,17 +259,35 @@ li {
   font-size: 30px;
   margin-left: 10px;
 }
+#wrapper .btn {
+  background: rgb(149, 223, 37);
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 1.5rem;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#wrapper .btn:hover {
+  background: transparent;
+  border: 1px solid rgb(17, 16, 16);
+  color: rgb(24, 22, 22);
+}
 @media (max-width: 540px) {
   #showcase {
-    height: 1000px;
+    height: 800px;
   }
   #showcase .showcase-content h1 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.2em;
   }
   #showcase .showcase-content h2,
   #showcase .showcase-content h3 {
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 20px;
     line-height: 1.7em;
   }
@@ -278,13 +296,13 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 70vw;
+    height: 80vh;
   }
   #wrapper h1 {
     font-weight: bold;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
   }
   #wrapper h2 {
     font-size: 35px;
@@ -318,13 +336,33 @@ li {
 
     width: 2%;
   }
-  .hud {
-    font-size: 20px;
+  /*.hud {
+    font-size: 15px;
     height: 80px;
-    width: 80%;
+    width: 70%;
   }
   .hud-prefix {
     font-size: 20px;
+  }*/
+  .welcome_form button {
+    padding: 5px 0;
+    margin: 8px;
+    border: none;
+    border-radius: 1px;
+    background-color: #fff;
+    color: #56a5eb;
+    font-size: 19px;
+    transition: 0.4s all;
+  }
+  .option {
+    font-size: 17px;
+    display: block;
+
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 1px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
   }
   .quiz_timer {
     margin-left: 3px;
