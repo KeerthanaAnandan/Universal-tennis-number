@@ -1,0 +1,333 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*----------------NAV----------*/
+
+#navbar .logo {
+  float: left;
+  top: 0;
+}
+#navbar .logo {
+  color: greenyellow;
+}
+/*----------------------------------*/
+/*showcase*/
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /*margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;*/
+}
+
+#showcase {
+  background: url("../../assets/tennis.jpg") no-repeat center center/cover;
+  height: 900px;
+}
+#showcase .showcase-content {
+  color: #ffffff;
+
+  text-align: center;
+
+  padding-top: 170px;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#showcase .showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content h2,
+#showcase .showcase-content h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.showcase-content .btn {
+  background: #56a5eb;
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 1.5rem;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.showcase-content .btn:hover {
+  background: transparent;
+  border: 1px solid rgb(17, 16, 16);
+  color: rgb(24, 22, 22);
+}
+
+/* --------x------ Site title --------x------- */
+body {
+  font-family: "Lato";
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ecf5ff;
+}
+
+.welcome_text {
+  width: 400px;
+}
+
+.welcome_form input,
+.welcome_form button {
+  display: block;
+  width: 100%;
+}
+
+.welcome_form input {
+  background-color: transparent;
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.welcome_form input:focus {
+  outline: none;
+}
+.welcome_form h1 {
+  text-align: center;
+}
+
+.welcome_form button {
+  padding: 15px 0;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #56a5eb;
+  font-size: 22px;
+  transition: 0.4s all;
+}
+
+.welcome_form button:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.quiz {
+  display: grid;
+  grid-template-rows: 60px auto;
+  width: 800px;
+  height: 500px;
+}
+
+/*.quiz_header {
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 1;
+  margin-bottom: 6rem;
+}*/
+.quiz_body {
+  padding: 30px 30px;
+}
+.quiz_user {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 30px;
+}
+.option_group {
+  list-style-type: none;
+  margin: 30px 0;
+}
+.option.active {
+  background-color: #56a5eb;
+  color: #fff;
+}
+.quiz_header,
+.hud {
+  text-align: center;
+}
+#hud-item {
+  text-align: center;
+}
+
+#progressBar {
+  width: 30rem;
+  height: 2rem;
+  border: 0.2rem solid #56a5eb;
+}
+
+#progressBarFull {
+  height: 1.7rem;
+  background-color: #56a5eb;
+  width: 2%;
+}
+
+li {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.option {
+  display: flex;
+  padding: 10px 10px;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: white;
+}
+
+.option:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 05);
+  transition: transform 150ms;
+  transform: translateY(-0.1rem);
+}
+
+.option_group {
+  list-style-type: none;
+  margin: 30px 0;
+  padding: 0rem;
+  width: 100%;
+}
+
+.option.active {
+  background-color: #56a5eb;
+  color: #fff;
+}
+.btn-next {
+  border: none;
+  padding: 15px 35px;
+  background-color: #56aef7;
+  color: #000;
+
+  transition: 0.4s all;
+}
+
+.btn-next:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #56a5eb;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.award_icon {
+  display: block;
+  font-size: 300px;
+  color: #56a5eb;
+}
+
+.username,
+.userpoints,
+.usertime {
+  color: #000;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 15px;
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #56a5eb;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+}
+#wrapper h2 {
+  margin-left: 150px;
+  font-size: 30px;
+}
+#wrapper h3 {
+  margin-left: 80px;
+  font-size: 40px;
+}
+#wrapper p {
+  font-size: 30px;
+  margin-left: 10px;
+}
+@media (max-width: 540px) {
+  #wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  #wrapper h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+  }
+  #wrapper h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+  #wrapper h3 {
+    font-size: 30px;
+  }
+  #wrapper p {
+    font-size: 18px;
+  }
+  #wrapper h2,
+  #wrapper h3,
+  #wrapper p {
+    margin-left: 30px;
+  }
+  .welcome_text {
+    width: 250px;
+  }
+  .welcome_form input {
+    width: 100%;
+  }
+  #progressBar {
+    width: 15rem;
+    height: 2rem;
+    border: 0.15rem solid #56aef7;
+  }
+
+  #progressBarFull {
+    height: 1.7rem;
+
+    width: 2%;
+  }
+  .hud {
+    font-size: 20px;
+    height: 80px;
+    width: 80%;
+  }
+  .hud-prefix {
+    font-size: 20px;
+  }
+  .quiz_timer {
+    margin-left: 3px;
+    margin-top: 0;
+  }
+  li {
+    padding: 5px 5px;
+  }
+  .award_icon {
+    font-size: 250px;
+  }
+}
