@@ -109,7 +109,7 @@ let points = Number(sessionStorage.getItem("points"));
 
 window.onload = function () {
   show(question_count);
-  s
+
 };
 
 function next(e) {

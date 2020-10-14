@@ -336,17 +336,12 @@ li {
 
     width: 2%;
   }
-  /*.hud {
-    font-size: 15px;
-    height: 80px;
-    width: 70%;
-  }
-  .hud-prefix {
+  .welcome_form #meh {
     font-size: 20px;
-  }*/
+  }
   .welcome_form button {
-    padding: 5px 0;
-    margin: 8px;
+    padding: 9px 0;
+    margin: 9px;
     border: none;
     border-radius: 1px;
     background-color: #fff;
@@ -358,8 +353,8 @@ li {
     font-size: 17px;
     display: block;
 
-    margin-bottom: 20px;
-    padding: 5px 10px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
     border-radius: 1px;
     border: 2px solid transparent;
     transition: 0.4s all;
