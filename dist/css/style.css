@@ -10,33 +10,32 @@
   float: left;
   top: 0;
 }
-#navbar .logo {
-  color: greenyellow;
-}
+
 /*----------------------------------*/
 /*showcase*/
 .container {
   display: block;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   /*margin: auto;
   max-width: 1100px;
   overflow: auto;
   padding: 0 20px;*/
 }
-
+/*
 #showcase {
   background: url("../../assets/tennis.jpg") no-repeat center center/cover;
   height: 900px;
-}
+}*/
 #showcase .showcase-content {
-  color: #ffffff;
+  color: #000000;
 
   text-align: center;
 
   padding-top: 170px;
 
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Poppins", sans-serif;
 }
 #showcase .showcase-content h1 {
   font-size: 50px;
@@ -240,7 +239,7 @@ li {
   height: 100vh;
   background-color: #56a5eb;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #wrapper h1 {
   font-weight: bold;
@@ -350,7 +349,7 @@ li {
     transition: 0.4s all;
   }
   .option {
-    font-size: 17px;
+    font-size: 10px;
     display: block;
 
     margin-bottom: 5px;
